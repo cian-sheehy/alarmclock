@@ -19,7 +19,7 @@ def make_mp3(words, mp3name, language="en"):
 
 def play_audio(audio_file):
     print("Playing {} file..".format(audio_file))
-    call(["vlc", audio_file, "--play-and-exit"])
+    call(["cvlc", audio_file, "--play-and-exit"])
     sleep(2)
 
 
